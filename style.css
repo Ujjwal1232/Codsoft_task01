@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background-color: #0f172a;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.branding {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: white;
+  color: #1e3a8a;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* About Section */
+.about-section {
+  padding: 60px 20px;
+  background-color: #f9fafb;
+}
+
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-img img {
+  width: 220px;
+  border-radius: 10px;
+}
+
+.about-content {
+  flex: 1;
+}
+
+/* Skills Section */
+.skills-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-weight: bold;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #e2e8f0;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+/* Projects Section */
+.projects-section {
+  padding: 60px 20px;
+  background-color: #f1f5f9;
+}
+
+.project-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+/* Resume Section */
+.resume-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.download-btn {
+  background-color: #1d4ed8;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 20px;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
